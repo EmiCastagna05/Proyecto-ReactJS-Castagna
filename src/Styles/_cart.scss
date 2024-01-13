@@ -1,0 +1,87 @@
+// ItemCart.jsx
+.itemCart {
+    background-color: rgba(21, 32, 38, 0.8);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.itemCartImg {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100%;
+    }
+}
+
+.itemCartInfo {
+    display: flex;
+    align-items: center;
+
+    div {
+        margin: 0 30px;
+    }
+
+    button {
+        border: none;
+        border-radius: 5px;
+        background-color: #F24405;
+        color: white;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+// Cart.jsx
+.cartEmpty {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        color: white;
+        font-size: large;
+        font-weight: 500
+    }
+}
+
+.cartEmptyLink {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    border: #F24405;
+    background-color: #F24405;
+    border-style: outset;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.cartBuy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 0;
+
+    p {
+        color: white;
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    button {
+        border: none;
+        border-radius: 5px;
+        background-color: #26A65D;
+        padding: 5px 20px;
+        font-size: larger;
+        font-weight: 600;
+    }
+}

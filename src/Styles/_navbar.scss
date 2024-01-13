@@ -1,0 +1,28 @@
+.navbar {
+    height: 80px;
+    background-color: #2C2C2C;
+}
+
+.navbar-logo {
+    padding-left: 20px;
+    width: 120px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    li {
+        padding: 10px;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.cart {
+    margin-right: 20px;
+}

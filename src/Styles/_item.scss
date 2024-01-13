@@ -1,0 +1,99 @@
+// ItemListContainer.jsx
+.itemListContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+// ItemList.jsx
+.itemList {
+    width: 280px;
+    height: 350px;
+    margin: 30px 15px;
+}
+
+// Item.jsx
+.item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2C2C;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.item-card-image {
+    height: 60%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 100%;
+        padding: 10px;
+
+    }
+}
+
+.item-card-info {
+    height: 40%;
+    background-color: #2C2C2C;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item-name {
+    color: white;
+    font-size: large;
+}
+
+.item-price {
+    color: #F24405 !important;
+}
+
+// ItemCount.jsx
+.itemCount {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.itemCountChange {
+    button {
+        width: 40px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: #F24405;
+        color: white;
+    }
+
+    span {
+        padding: 0 15px;
+        color: white;
+    }
+}
+
+.itemCountAdd {
+    margin-top: 10px;
+
+    button {
+        border: none;
+        border-radius: 5px;
+        background-color: #26A65D;
+        color: white;
+        padding: 5px 20px;
+    }
+}

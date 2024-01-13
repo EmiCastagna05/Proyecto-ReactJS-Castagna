@@ -1,0 +1,20 @@
+@import './navbar';
+@import './cartWidget';
+@import './item';
+@import './error';
+@import './itemDetail';
+@import './cart';
+@import './checkout';
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #384A54;
+}
+
+.container {
+    margin: 0;
+}

@@ -1,0 +1,58 @@
+.checkout {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        background-color: rgba(21, 32, 38, 0.8);
+        border-radius: 10px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            color: white;
+        }
+    }
+
+    h2 {
+        color: white;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+        width: 70%;
+
+        label {
+            color: white;
+        }
+    }
+}
+
+.checkoutOrder {
+    align-items: center;
+
+    p {
+        font-size: x-large;
+        font-weight: 600;
+    }
+}
+
+.checkoutSubmit {
+    text-align: center;
+
+    button {
+        border: none;
+        border-radius: 5px;
+        padding: 5px 20px;
+        background-color: #26A65D;
+        font-size: larger;
+        font-weight: 600;
+        margin-top: 20px;
+        // width: 50%;
+    }
+}
